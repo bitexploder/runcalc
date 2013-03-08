@@ -16,7 +16,7 @@ This library contains functions to easily convert from imperial and metric runni
 
 Notice the pace function requires feet.
 
-### Given a distance in miles and a time (6.05 miles in 55:37)
+### Given a distance in miles and a time (6.05 miles in 55:37) calculate the pace.
 
 	# 6.05 miles in 55 minutes and 37 seconds
 	the_pace = runcalc.pace_for_distance(6.05, (0, 55, 37))
